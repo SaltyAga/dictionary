@@ -1,5 +1,4 @@
 import React, {useState} from 'react';
-//import { REACT_APP_BASE_URL, REACT_APP_API_KEY } from '../local.env';
 import axios from 'axios';
 
 const registerUrl = process.env.REACT_APP_BASE_URL + '/register';

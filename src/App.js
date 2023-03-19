@@ -14,12 +14,12 @@ const verifyTokenUrl = process.env.REACT_APP_BASE_URL + '/verify';
 
 function App() {
   const [isAuthenticating, setAuthenticating] = useState(true);
+
   useEffect(() => {
     const token = getToken();
     if (token === 'undefined' || token === undefined || token === null || !token) {
         return;
     }
-
     const requestConfig = {
         headers: {
             'x-api-key': process.env.REACT_APP_API_KEY
@@ -29,17 +29,14 @@ function App() {
         user: getUser(),
         token: token
     }
-
     axios.post(verifyTokenUrl, requestBody, requestConfig).then(response => {
-        console.log("response" + response)
         setUserSession(response.data.user, response.data.token);
         setAuthenticating(false);
-    }).catch((error) => {
-        console.log(error);
+    }).catch(() => {
         resetUserSession();
         setAuthenticating(false);
     })
-  } , [])
+  }, [])
 
   const token = getToken();
   if (isAuthenticating && token) {
@@ -59,7 +56,7 @@ function App() {
                 <Routes>
                     <Route path="/" element={<Home />}/>
                     <Route path="/register" element={<PublicRoute><Register /></PublicRoute>}/>
-                    <Route path="/login" element={<PublicRoute><Login />/</PublicRoute>}/>
+                    <Route path="/login" element={<PublicRoute><Login /></PublicRoute>}/>
                     <Route path="/library" element={<PrivateRoute><Library /></PrivateRoute>}/>
                 </Routes>
             </div>

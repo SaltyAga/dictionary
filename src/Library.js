@@ -4,7 +4,6 @@ import { getUser, resetUserSession } from './service/AuthService';
 
 const Library = () => {
 	const user = getUser();
-	console.log(user);
 	const name = user !== undefined && user ? user.name : '';
 	const navigate = useNavigate();
 
@@ -15,8 +14,8 @@ const Library = () => {
 
 	return (
 		<div>
-			<div>Hello {name}!</div>
-			<input type="button" value="Logout" onClink={logoutHandler} />
+			<div>Welcome to your library, {name}!</div>
+			<input type="button" value="Logout" onClick={logoutHandler} />
 		</div>
 	)
 }
