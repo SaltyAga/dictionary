@@ -1,12 +1,11 @@
 import React, { useState } from 'react';
-import '../library/Library.css';
+import './Library.css';
 import Dictionary from './Dictionary';
 import DictionaryCard from './DictionaryCard';
 
 
 const Dictionaries = () => {
     const [cardClicked, setCardClicked] = useState("");
-    const [name, setName] = useState("");
     const data = require('../library/dictionaries.json');
 	const dictionaries = data["dictionaries"];
 

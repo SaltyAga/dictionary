@@ -10,53 +10,53 @@
             "terms": [
                 {
                     "termId": "1",
-                    "term": "",
-                    "translation": ""
+                    "term": "Name",
+                    "translation": "Naam"
                 },
                 {
-                    "termId": "1",
-                    "term": "",
-                    "translation": ""
+                    "termId": "2",
+                    "term": "Girl",
+                    "translation": "Meisje"
                 },
                 {
-                    "termId": "1",
-                    "term": "",
-                    "translation": ""
+                    "termId": "3",
+                    "term": "Boy",
+                    "translation": "Jongen"
                 },
                 {
-                    "termId": "1",
-                    "term": "",
-                    "translation": ""
+                    "termId": "4",
+                    "term": "Summer",
+                    "translation": "Zomer"
                 },
                 {
-                    "termId": "1",
-                    "term": "",
-                    "translation": ""
+                    "termId": "5",
+                    "term": "Winter",
+                    "translation": "Winter"
                 },
                 {
-                    "termId": "1",
-                    "term": "",
-                    "translation": ""
+                    "termId": "6",
+                    "term": "Autumn",
+                    "translation": "Herfst"
                 },
                 {
-                    "termId": "1",
-                    "term": "",
-                    "translation": ""
+                    "termId": "7",
+                    "term": "Spring",
+                    "translation": "Lente"
                 },
                 {
-                    "termId": "1",
-                    "term": "",
-                    "translation": ""
+                    "termId": "8",
+                    "term": "Mill",
+                    "translation": "Molen"
                 },
                 {
-                    "termId": "1",
-                    "term": "",
-                    "translation": ""
+                    "termId": "9",
+                    "term": "Bridge",
+                    "translation": "Brug"
                 },
                 {
-                    "termId": "1",
-                    "term": "",
-                    "translation": ""
+                    "termId": "10",
+                    "term": "Bread",
+                    "translation": "Brood"
                 }
             ]
         },
@@ -67,7 +67,23 @@
             "email": "test2@example.com",
             "author": "Test user",
             "numberOfTerms": "3",
-            "terms": []
+            "terms": [
+                {
+                    "termId": "1",
+                    "term": "To walk",
+                    "translation": "Lopen"
+                },
+                {
+                    "termId": "2",
+                    "term": "To sing",
+                    "translation": "Zingen"
+                },
+                {
+                    "termId": "3",
+                    "term": "To swim",
+                    "translation": "Zwemmen"
+                }
+            ]
         },
         {
             "dictionayrId": "3",
@@ -75,7 +91,7 @@
             "version": "1",
             "email": "test2@example.com",
             "author": "Test user",
-            "numberOfTerms": "3",
+            "numberOfTerms": "0",
             "terms": []
         },
         {
@@ -84,7 +100,7 @@
             "version": "1",
             "email": "test2@example.com",
             "author": "Test user",
-            "numberOfTerms": "3",
+            "numberOfTerms": "0",
             "terms": []
         },
         {
@@ -93,7 +109,7 @@
             "version": "1",
             "email": "test2@example.com",
             "author": "Test user",
-            "numberOfTerms": "3",
+            "numberOfTerms": "0",
             "terms": []
         },
         {
@@ -102,7 +118,7 @@
             "version": "1",
             "email": "test2@example.com",
             "author": "Test user",
-            "numberOfTerms": "5",
+            "numberOfTerms": "0",
             "terms": []
         },
         {
@@ -111,7 +127,7 @@
             "version": "1",
             "email": "test2@example.com",
             "author": "Test user",
-            "numberOfTerms": "2",
+            "numberOfTerms": "0",
             "terms": []
         },
         {
@@ -120,7 +136,7 @@
             "version": "1",
             "email": "test2@example.com",
             "author": "Test user",
-            "numberOfTerms": "11",
+            "numberOfTerms": "0",
             "terms": []
         },
         {
@@ -129,7 +145,7 @@
             "version": "1",
             "email": "test2@example.com",
             "author": "Test user",
-            "numberOfTerms": "2",
+            "numberOfTerms": "0",
             "terms": []
         },
         {
@@ -138,7 +154,7 @@
             "version": "1",
             "email": "test2@example.com",
             "author": "Test user",
-            "numberOfTerms": "3",
+            "numberOfTerms": "0",
             "terms": []
         }
     ]

@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import '../library/Library.css';
+import './Library.css';
 
 const DictionaryCard = (props) => {
     const [hover, setHover] = useState(false);

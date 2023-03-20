@@ -1,8 +1,8 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import { getUser, resetUserSession } from '../service/AuthService';
-import '../library/Library.css';
-import Dictionaries from '../library/Dictionaries';
+import './Library.css';
+import Dictionaries from './Dictionaries';
 
 const Library = () => {
 	const user = getUser();

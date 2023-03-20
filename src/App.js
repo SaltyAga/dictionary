@@ -9,7 +9,6 @@ import PrivateRoute from './routes/PrivateRoute';
 import React, { useState, useEffect } from 'react';
 import { getUser, getToken, setUserSession, resetUserSession } from './service/AuthService';
 import axios from 'axios';
-import Dictionary from './library/Dictionary';
 
 const verifyTokenUrl = process.env.REACT_APP_BASE_URL + '/verify';
 
