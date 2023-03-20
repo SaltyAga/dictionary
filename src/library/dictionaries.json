@@ -1,0 +1,146 @@
+{
+    "dictionaries": [
+        {
+            "dictionayrId": "1",
+            "name": "My first dictionary",
+            "version": "1",
+            "email": "test2@example.com",
+            "author": "Test user",
+            "numberOfTerms": "10",
+            "terms": [
+                {
+                    "termId": "1",
+                    "term": "",
+                    "translation": ""
+                },
+                {
+                    "termId": "1",
+                    "term": "",
+                    "translation": ""
+                },
+                {
+                    "termId": "1",
+                    "term": "",
+                    "translation": ""
+                },
+                {
+                    "termId": "1",
+                    "term": "",
+                    "translation": ""
+                },
+                {
+                    "termId": "1",
+                    "term": "",
+                    "translation": ""
+                },
+                {
+                    "termId": "1",
+                    "term": "",
+                    "translation": ""
+                },
+                {
+                    "termId": "1",
+                    "term": "",
+                    "translation": ""
+                },
+                {
+                    "termId": "1",
+                    "term": "",
+                    "translation": ""
+                },
+                {
+                    "termId": "1",
+                    "term": "",
+                    "translation": ""
+                },
+                {
+                    "termId": "1",
+                    "term": "",
+                    "translation": ""
+                }
+            ]
+        },
+        {
+            "dictionayrId": "2",
+            "name": "Test dictionary",
+            "version": "1",
+            "email": "test2@example.com",
+            "author": "Test user",
+            "numberOfTerms": "3",
+            "terms": []
+        },
+        {
+            "dictionayrId": "3",
+            "name": "Dutch Lesson 1",
+            "version": "1",
+            "email": "test2@example.com",
+            "author": "Test user",
+            "numberOfTerms": "3",
+            "terms": []
+        },
+        {
+            "dictionayrId": "4",
+            "name": "Dutch Lesson 2",
+            "version": "1",
+            "email": "test2@example.com",
+            "author": "Test user",
+            "numberOfTerms": "3",
+            "terms": []
+        },
+        {
+            "dictionayrId": "5",
+            "name": "Dutch Lesson 3",
+            "version": "1",
+            "email": "test2@example.com",
+            "author": "Test user",
+            "numberOfTerms": "3",
+            "terms": []
+        },
+        {
+            "dictionayrId": "6",
+            "name": "Dutch Lesson 4",
+            "version": "1",
+            "email": "test2@example.com",
+            "author": "Test user",
+            "numberOfTerms": "5",
+            "terms": []
+        },
+        {
+            "dictionayrId": "7",
+            "name": "Dutch Lesson 5",
+            "version": "1",
+            "email": "test2@example.com",
+            "author": "Test user",
+            "numberOfTerms": "2",
+            "terms": []
+        },
+        {
+            "dictionayrId": "8",
+            "name": "Dutch Lesson 6",
+            "version": "1",
+            "email": "test2@example.com",
+            "author": "Test user",
+            "numberOfTerms": "11",
+            "terms": []
+        },
+        {
+            "dictionayrId": "9",
+            "name": "Dutch Lesson 7",
+            "version": "1",
+            "email": "test2@example.com",
+            "author": "Test user",
+            "numberOfTerms": "2",
+            "terms": []
+        },
+        {
+            "dictionayrId": "10",
+            "name": "Dutch Lesson 8",
+            "version": "1",
+            "email": "test2@example.com",
+            "author": "Test user",
+            "numberOfTerms": "3",
+            "terms": []
+        }
+    ]
+}
+    

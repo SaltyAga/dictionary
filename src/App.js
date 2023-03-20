@@ -1,14 +1,15 @@
 import { BrowserRouter, NavLink, Route, Routes} from 'react-router-dom';
 import Home from "./Home";
-import Register from "./Register";
-import Login from "./Login";
-import Library from "./Library";
+import Register from "./login/Register";
+import Login from "./login/Login";
+import Library from "./library/Library";
 import './App.css';
 import PublicRoute from './routes/PublicRoute';
 import PrivateRoute from './routes/PrivateRoute';
 import React, { useState, useEffect } from 'react';
 import { getUser, getToken, setUserSession, resetUserSession } from './service/AuthService';
 import axios from 'axios';
+import Dictionary from './library/Dictionary';
 
 const verifyTokenUrl = process.env.REACT_APP_BASE_URL + '/verify';
 

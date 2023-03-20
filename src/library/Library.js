@@ -1,6 +1,8 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
-import { getUser, resetUserSession } from './service/AuthService';
+import { getUser, resetUserSession } from '../service/AuthService';
+import '../library/Library.css';
+import Dictionaries from '../library/Dictionaries';
 
 const Library = () => {
 	const user = getUser();
@@ -13,8 +15,11 @@ const Library = () => {
 	}
 
 	return (
-		<div>
+		<div className="Library">
 			<div>Welcome to your library, {name}!</div>
+			<h3>My dictionaries</h3>
+			<Dictionaries/>
+		
 			<input type="button" value="Logout" onClick={logoutHandler} />
 		</div>
 	)

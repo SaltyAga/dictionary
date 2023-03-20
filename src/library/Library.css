@@ -1,0 +1,47 @@
+.Library {
+    margin: 0 auto;
+    align-content: center;
+    width: 80%;
+}
+.Container {
+    margin-top: 2rem;
+    padding-bottom: 2rem;
+    background-color: lightcyan;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    border-radius: 1rem;
+}
+
+.Item {
+    width: 40%;
+    background-color: white;
+    margin: 2rem 0 0 0;
+    height: 10rem;
+    border-radius: 10px;
+    -webkit-box-shadow: 0 0 5px rgb(145, 155, 158);
+        box-shadow: 0 0 5px rgb(145, 155, 158);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.Item.hover {
+    -webkit-box-shadow: 0 0 15px rgb(75, 116, 129);
+        box-shadow: 0 0 15px rgb(75, 116, 129);
+}
+
+.name {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.terms {
+    font-size: 1rem;
+    color: grey;
+}
+
+.created {
+    font-size: 1rem;
+}

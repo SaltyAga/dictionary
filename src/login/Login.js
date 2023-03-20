@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import axios from 'axios';
-import { setUserSession } from './service/AuthService';
+import { setUserSession } from '../service/AuthService';
 
 const loginUrl =  process.env.REACT_APP_BASE_URL + '/login';
 
